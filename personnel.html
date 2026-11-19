@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#132d51">
+  <meta name="description" content="School inventory and property management for Magallanes National High School">
+  <title>Personnel / Employees | COA Inventory</title>
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="libs/lucide.min.js" defer></script>
+  <script src="libs/socket.io.min.js" defer></script>
+  <script src="libs/jsQR.js" defer></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-page="personnel">
+  <div id="app" aria-busy="true"><main class="page"><p class="muted">Loading personnel / employees…</p></main></div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <noscript><p>This application needs JavaScript to connect to the inventory service.</p></noscript>
+</body>
+</html>
